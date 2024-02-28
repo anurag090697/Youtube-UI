@@ -103,10 +103,6 @@ header img {
 .header-right span{
     padding: 5px;
 }
-.videos::after {
-    content: "Recommended";
-    justify-self: right;
-}
 #recm {
     margin-top: 0;
     margin-left: 200px;
