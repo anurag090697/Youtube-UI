@@ -50,6 +50,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     border-top: #b3afaf;
+    position: relative;
 }
 a, p {
     text-decoration: none;
@@ -68,7 +69,9 @@ a, p {
 .sidebar h4 {
     margin-left: 20px;
     font-weight: 100;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 header input {
     width: 500px;
@@ -89,13 +92,25 @@ span {
     align-items: center;
 }
 .header-left span {
-    margin: 18px;
+    margin: 0;
     padding: 0;
 }
 header img {
     width: 45px;
     height: 30px;
+    margin-left: 18px;
 }
 .header-right span{
     padding: 5px;
+}
+.videos::after {
+    content: "Recommended";
+    justify-self: right;
+}
+#recm {
+    margin-top: 0;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #F9F9F9;
+    position: relative;
 }
